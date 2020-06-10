@@ -38,6 +38,6 @@ function target14(){
   var row2 = $("#target14").find("tr:eq(1)").html();
 
   $("#target14").find("tr:eq(0)").html(row2);
-  $("#target14").find("tr:eq(0)").html(row1);
+  $("#target14").find("tr:eq(1)").html(row1);
 
 }
