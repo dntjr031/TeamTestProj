@@ -3,8 +3,43 @@
 <head>
 <meta charset="UTF-8">
 <title>테스트</title>
+<style media="screen">
+body{
+	width: 800px;
+	background: rgb(205, 255, 179);
+	margin: 0 auto;
+}
+	.frm1{
+		width: 100%;
+		height: 300px;
+		margin: 10px auto;
+		text-align: center;
+	}
+.div1{
+	width: 400px;
+	height: 200px;
+	border: 1px solid gray;
+	margin: 10px auto;
+}
+.frm1 input{
+	width: 200px;
+	height: 30px;
+	margin: 10px auto;
+}
+.frm1 button{
+	width: 100px;
+	height: 30px;
+	margin: 10px auto;
+}
+</style>
 </head>
 <body>
-	<h1>테스트..</h1>
+	<div class="div1">
+
+	</div>
+	<form class="frm1" action="user.js" method="post">
+		<input type="text" name="name">
+		<button type="submit" name="search">검색</button>
+	</form>
 </body>
 </html>
